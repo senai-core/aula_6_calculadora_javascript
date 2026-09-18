@@ -1,18 +1,10 @@
-# Calculadora em JavaScript
+# Calculadora em dois paradigmas
 
-Atividade da aula 6 do curso de desenvolvimento do SENAI.
+A mesma calculadora escrita duas vezes, lado a lado, pra comparar os dois jeitos.
 
-A página mostra duas calculadoras iguais, cada uma programada de um jeito:
+| Arquivo | Abordagem |
+|---|---|
+| `src/calculadora_estruturada.js` | funções e estado global |
+| `src/calculadora_objeto.js` | classe `Calculadora`, uma instância por bloco |
 
-- **Estruturada** (`src/calculadora_estruturada.js`): variáveis e funções soltas.
-- **Orientada a objetos** (`src/calculadora_objeto.js`): uma classe `Calculadora` que pode ser usada em qualquer bloco da página.
-
-As duas fazem soma, subtração, multiplicação, divisão, aceitam casas decimais e mostram "Erro" em contas inválidas ou divisão por zero.
-
-## Como executar
-
-Abra o arquivo `src/index.html` no navegador. Não precisa instalar nada.
-
-## Autor
-
-Guilherme Wohl
+Abre o `src/index.html` no navegador.
