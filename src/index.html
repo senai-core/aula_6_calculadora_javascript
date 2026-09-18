@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadoras em JavaScript</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header class="topo">
+        <h1>Calculadoras em JavaScript</h1>
+        <p>A mesma calculadora escrita de dois jeitos</p>
+    </header>
+
+    <section class="vitrine">
+        <article class="aparelho" id="aparelho-estruturado">
+            <h2 class="aparelho-nome">Estruturada</h2>
+            <output class="visor">0</output>
+
+            <div class="teclado">
+                <button class="tecla tecla-limpar" data-tecla="C">C</button>
+                <button class="tecla tecla-operacao" data-tecla="/">÷</button>
+                <button class="tecla tecla-operacao" data-tecla="*">×</button>
+                <button class="tecla tecla-operacao" data-tecla="-">−</button>
+
+                <button class="tecla" data-tecla="7">7</button>
+                <button class="tecla" data-tecla="8">8</button>
+                <button class="tecla" data-tecla="9">9</button>
+                <button class="tecla tecla-operacao tecla-alta" data-tecla="+">+</button>
+
+                <button class="tecla" data-tecla="4">4</button>
+                <button class="tecla" data-tecla="5">5</button>
+                <button class="tecla" data-tecla="6">6</button>
+
+                <button class="tecla" data-tecla="1">1</button>
+                <button class="tecla" data-tecla="2">2</button>
+                <button class="tecla" data-tecla="3">3</button>
+                <button class="tecla tecla-resultado" data-tecla="=">=</button>
+
+                <button class="tecla tecla-larga" data-tecla="0">0</button>
+                <button class="tecla" data-tecla=".">,</button>
+            </div>
+        </article>
+
+        <article class="aparelho" id="aparelho-objeto">
+            <h2 class="aparelho-nome">Orientada a objetos</h2>
+            <output class="visor">0</output>
+
+            <div class="teclado">
+                <button class="tecla tecla-limpar" data-tecla="C">C</button>
+                <button class="tecla tecla-operacao" data-tecla="/">÷</button>
+                <button class="tecla tecla-operacao" data-tecla="*">×</button>
+                <button class="tecla tecla-operacao" data-tecla="-">−</button>
+
+                <button class="tecla" data-tecla="7">7</button>
+                <button class="tecla" data-tecla="8">8</button>
+                <button class="tecla" data-tecla="9">9</button>
+                <button class="tecla tecla-operacao tecla-alta" data-tecla="+">+</button>
+
+                <button class="tecla" data-tecla="4">4</button>
+                <button class="tecla" data-tecla="5">5</button>
+                <button class="tecla" data-tecla="6">6</button>
+
+                <button class="tecla" data-tecla="1">1</button>
+                <button class="tecla" data-tecla="2">2</button>
+                <button class="tecla" data-tecla="3">3</button>
+                <button class="tecla tecla-resultado" data-tecla="=">=</button>
+
+                <button class="tecla tecla-larga" data-tecla="0">0</button>
+                <button class="tecla" data-tecla=".">,</button>
+            </div>
+        </article>
+    </section>
+
+    <script src="calculadora_estruturada.js"></script>
+    <script src="calculadora_objeto.js"></script>
+</body>
+
+</html>
